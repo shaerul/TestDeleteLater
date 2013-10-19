@@ -4,20 +4,17 @@ package com.example.testdeletelater;
  * 
  * Nothing to lose here
  * Need More Clarification Please add
+ * Adding Nothing to it
  * 
  */
 
 import java.math.BigDecimal;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.text.Editable;
-import android.text.Selection;
-import android.text.Spannable;
 import android.text.TextWatcher;
 import android.view.Menu;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -37,6 +34,10 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+	
+	public void Neel() {
+		
 	}
 	
 	/**
