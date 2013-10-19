@@ -38,6 +38,10 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
+	/**
+	 * Created for setting Action
+	 */
+	
 	private void setActions() {
 
 		watcherEditTextForCardIDField = new EditText(this);
