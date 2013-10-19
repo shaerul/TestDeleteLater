@@ -1,5 +1,11 @@
 package com.example.testdeletelater;
 
+/**
+ * 
+ * Nothing to lose here
+ * 
+ */
+
 import java.math.BigDecimal;
 
 import android.os.Bundle;
@@ -31,7 +37,7 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
+	
 	private void setActions() {
 
 		watcherEditTextForCardIDField = new EditText(this);
