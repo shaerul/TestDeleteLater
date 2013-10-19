@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:clickable="false"
+        android:gravity="center" >
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Fund Transfer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff29549f"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_below="@+id/textView1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:enabled="true"
+            android:hint="Amount e.g. 100.80"
+            android:inputType="numberDecimal" >
+
+            <requestFocus android:layout_width="wrap_content" />
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editText1"
+            android:layout_centerVertical="true"
+            android:text="0.00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff29549f"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textMultiLine"
+            android:textAllCaps="true" />
+
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText2"
+            android:ems="10"
+            android:hint="Destination Card ID"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editText3"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:ems="10"
+            android:hint="DCode"
+            android:inputType="number" />
+        
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="21dp"
+            android:text="Start" />
+    
+    </RelativeLayout>
+
+</ScrollView>
